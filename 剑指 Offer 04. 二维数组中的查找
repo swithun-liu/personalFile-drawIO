@@ -1,31 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2021-01-13T15:07:56.328Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 Edg/87.0.664.75" etag="aQ7pIqQoedgFzwa-ocya" version="14.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-14T01:31:30.088Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 Edg/87.0.664.75" etag="ddDXpCQH4mqK3CsjOhll" version="14.2.2" type="github" pages="2">
   <diagram id="yaZjpQNGIaOI5x5NlNXK" name="Page-1">
-    <mxGraphModel dx="972" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#252528" math="0" shadow="0">
+    <mxGraphModel dx="979" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#252528" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="wiUSopNeyKGDD5Tdk3fi-11" value="比index小&lt;br&gt;比target小" style="whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;sketch=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="wiUSopNeyKGDD5Tdk3fi-11" value="比index小&lt;br&gt;比target小" style="whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;sketch=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="70" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="wiUSopNeyKGDD5Tdk3fi-12" value="比index小" style="whiteSpace=wrap;html=1;fillColor=#BC6C25;strokeColor=#DDA15E;fontColor=#FEFAE0;sketch=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="wiUSopNeyKGDD5Tdk3fi-12" value="比index小" style="whiteSpace=wrap;html=1;fillColor=#BC6C25;strokeColor=#DDA15E;fontColor=#FEFAE0;sketch=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="300" y="70" width="80" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="wiUSopNeyKGDD5Tdk3fi-13" value="比index小" style="whiteSpace=wrap;html=1;fillColor=#BC6C25;strokeColor=#DDA15E;fontColor=#FEFAE0;sketch=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="wiUSopNeyKGDD5Tdk3fi-13" value="比index小" style="whiteSpace=wrap;html=1;fillColor=#BC6C25;strokeColor=#DDA15E;fontColor=#FEFAE0;sketch=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="190" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wiUSopNeyKGDD5Tdk3fi-15" value="比我大&lt;br&gt;比我大" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;sketch=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="wiUSopNeyKGDD5Tdk3fi-15" value="比我大&lt;br&gt;比我大" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;sketch=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="300" y="190" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wiUSopNeyKGDD5Tdk3fi-68" value="(设交叉的点 是 index)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontColor=#FEFAE0;sketch=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="wiUSopNeyKGDD5Tdk3fi-68" value="(设交叉的点 是 index)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontColor=#FEFAE0;sketch=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="450" y="80" width="230" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="wiUSopNeyKGDD5Tdk3fi-69" value="如果 target&amp;gt;index&lt;br&gt;那么就应该去看 排除掉 粉色&lt;br&gt;因为它比target小" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontColor=#FEFAE0;sketch=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="wiUSopNeyKGDD5Tdk3fi-69" value="如果 target&amp;gt;index&lt;br&gt;那么就应该去看 排除掉 粉色&lt;br&gt;因为它比target小" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontColor=#FEFAE0;sketch=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="120" width="240" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="wiUSopNeyKGDD5Tdk3fi-70" value="如果target&amp;lt;index&lt;br&gt;那么应该看比index 小的部分(两个橙色+粉色)&lt;br&gt;但是 粉色已经排除" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontColor=#FEFAE0;sketch=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="wiUSopNeyKGDD5Tdk3fi-70" value="如果target&amp;lt;index&lt;br&gt;那么应该看比index 小的部分(两个橙色+粉色)&lt;br&gt;但是 粉色已经排除" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontColor=#FEFAE0;sketch=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="430" y="210" width="310" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="wiUSopNeyKGDD5Tdk3fi-71" value="" style="endArrow=classic;html=1;strokeColor=#DDA15E;fillColor=#BC6C25;fontColor=#FEFAE0;exitX=0.5;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;sketch=1;curved=1;labelBackgroundColor=#283618;" edge="1" parent="1" source="wiUSopNeyKGDD5Tdk3fi-11">
+        <mxCell id="wiUSopNeyKGDD5Tdk3fi-71" value="" style="endArrow=classic;html=1;strokeColor=#DDA15E;fillColor=#BC6C25;fontColor=#FEFAE0;exitX=0.5;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;sketch=1;curved=1;labelBackgroundColor=#283618;" parent="1" source="wiUSopNeyKGDD5Tdk3fi-11" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="420" y="180" as="sourcePoint" />
             <mxPoint x="640" y="130" as="targetPoint" />
@@ -35,7 +35,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="wiUSopNeyKGDD5Tdk3fi-72" value="" style="endArrow=classic;html=1;strokeColor=#DDA15E;fillColor=#BC6C25;fontColor=#FEFAE0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;sketch=1;curved=1;labelBackgroundColor=#283618;" edge="1" parent="1" source="wiUSopNeyKGDD5Tdk3fi-13" target="wiUSopNeyKGDD5Tdk3fi-70">
+        <mxCell id="wiUSopNeyKGDD5Tdk3fi-72" value="" style="endArrow=classic;html=1;strokeColor=#DDA15E;fillColor=#BC6C25;fontColor=#FEFAE0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;sketch=1;curved=1;labelBackgroundColor=#283618;" parent="1" source="wiUSopNeyKGDD5Tdk3fi-13" target="wiUSopNeyKGDD5Tdk3fi-70" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="450" y="380" as="sourcePoint" />
             <mxPoint x="500" y="330" as="targetPoint" />
@@ -45,7 +45,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="wiUSopNeyKGDD5Tdk3fi-73" value="" style="endArrow=classic;html=1;strokeColor=#DDA15E;fillColor=#BC6C25;fontColor=#FEFAE0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;sketch=1;curved=1;labelBackgroundColor=#283618;" edge="1" parent="1" source="wiUSopNeyKGDD5Tdk3fi-12" target="wiUSopNeyKGDD5Tdk3fi-70">
+        <mxCell id="wiUSopNeyKGDD5Tdk3fi-73" value="" style="endArrow=classic;html=1;strokeColor=#DDA15E;fillColor=#BC6C25;fontColor=#FEFAE0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;sketch=1;curved=1;labelBackgroundColor=#283618;" parent="1" source="wiUSopNeyKGDD5Tdk3fi-12" target="wiUSopNeyKGDD5Tdk3fi-70" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="450" y="380" as="sourcePoint" />
             <mxPoint x="500" y="330" as="targetPoint" />
@@ -53,6 +53,26 @@
               <mxPoint x="630" y="170" />
             </Array>
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="QQOvKw8FHqyhoHPSAYU_" name="Page-2">
+    <mxGraphModel dx="979" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#252528" math="0" shadow="0">
+      <root>
+        <mxCell id="GTBIzWeGeFcKVqb0OgAH-0" />
+        <mxCell id="GTBIzWeGeFcKVqb0OgAH-1" parent="GTBIzWeGeFcKVqb0OgAH-0" />
+        <mxCell id="uulJi0EsOp8vxqISuN5h-0" value="比index小&lt;br&gt;比target小" style="whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;sketch=1;rounded=1;" parent="GTBIzWeGeFcKVqb0OgAH-1" vertex="1">
+          <mxGeometry x="140" y="70" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uulJi0EsOp8vxqISuN5h-1" value="比index小" style="whiteSpace=wrap;html=1;fillColor=#BC6C25;strokeColor=#DDA15E;fontColor=#FEFAE0;sketch=1;rounded=1;" parent="GTBIzWeGeFcKVqb0OgAH-1" vertex="1">
+          <mxGeometry x="300" y="70" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uulJi0EsOp8vxqISuN5h-2" value="比index小" style="whiteSpace=wrap;html=1;fillColor=#BC6C25;strokeColor=#DDA15E;fontColor=#FEFAE0;sketch=1;rounded=1;" parent="GTBIzWeGeFcKVqb0OgAH-1" vertex="1">
+          <mxGeometry x="140" y="190" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uulJi0EsOp8vxqISuN5h-3" value="比我大&lt;br&gt;比我大" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;sketch=1;rounded=1;" parent="GTBIzWeGeFcKVqb0OgAH-1" vertex="1">
+          <mxGeometry x="300" y="190" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
