@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-15T13:57:40.193Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 Edg/87.0.664.75" etag="SSAc_roDYsx_xv9CYkec" version="14.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-15T14:13:17.054Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 Edg/87.0.664.75" etag="xKL71yzTpWAaFsXu27TK" version="14.2.3" type="github">
   <diagram id="qIBaYx1OjdNQl1WJp-y4" name="Page-1">
-    <mxGraphModel dx="2448" dy="1398" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#252528" math="0" shadow="0">
+    <mxGraphModel dx="1152" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#252528" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -78,7 +78,7 @@
           <mxGeometry x="1161.73" y="79.92" width="45" height="39.54" as="geometry" />
         </mxCell>
         <mxCell id="tJs8GlQizXI-MtxkOOh9-343" value="" style="whiteSpace=wrap;html=1;fontColor=#FEFAE0;rounded=1;sketch=1;labelBackgroundColor=none;strokeColor=#FF99CC;fillColor=#96006E;shadow=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1041.5" y="79.69" width="120" height="40" as="geometry" />
+          <mxGeometry x="1041.5" y="79.69" width="88.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tJs8GlQizXI-MtxkOOh9-339" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.orthogonal_triangle;labelBackgroundColor=none;sketch=1;fontColor=#E4FDE1;rotation=-90;rounded=1;shadow=0;strokeColor=#F500B4;fillColor=#870063;" vertex="1" parent="1">
           <mxGeometry x="1144.0900000000001" y="182.74" width="40.15" height="84.38" as="geometry" />
@@ -226,6 +226,9 @@
         </mxCell>
         <mxCell id="tJs8GlQizXI-MtxkOOh9-416" value="" style="whiteSpace=wrap;html=1;fontColor=#FEFAE0;rounded=1;sketch=1;labelBackgroundColor=none;strokeColor=#FF99CC;fillColor=#96006E;shadow=0;align=center;" vertex="1" parent="1">
           <mxGeometry x="1556" y="720" width="197" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tJs8GlQizXI-MtxkOOh9-418" value="" style="shape=manualInput;whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;sketch=1;fontColor=#E4FDE1;shadow=0;fillColor=#8F0069;strokeColor=#F500B4;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="40" width="30" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
