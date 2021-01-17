@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-17T09:42:31.670Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="vFdxGcIlJuXd52JKg979" version="14.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-17T09:47:05.783Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="-uBQhcpmsN-VME5qDFjp" version="14.2.4" type="github">
   <diagram id="RsEfoIwAWoP-kcTIS6vf" name="Page-1">
-    <mxGraphModel dx="3730" dy="1176" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#252528" math="1" shadow="0">
+    <mxGraphModel dx="5447" dy="1680" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#252528" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -783,11 +783,33 @@
         <mxCell id="jk-Jnqka4b3zd8DsAin8-460" value="" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;strokeColor=#FFCCE6;fontColor=#E4FDE1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-184" y="2348" width="424" height="170" as="geometry" />
         </mxCell>
+        <mxCell id="jk-Jnqka4b3zd8DsAin8-470" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#028090;strokeWidth=3;fillColor=#F45B69;fontColor=#E4FDE1;entryX=0.438;entryY=0.356;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jk-Jnqka4b3zd8DsAin8-461" target="jk-Jnqka4b3zd8DsAin8-471">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1331.5999755859375" y="2756.4000854492188" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1682" y="2041" />
+              <mxPoint x="-1682" y="2600" />
+              <mxPoint x="-1250" y="2600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="jk-Jnqka4b3zd8DsAin8-461" value="什么时候可以砍掉3个：像这种最后剩下的数量仍然&amp;gt;4的时候" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#E4FDE1;" vertex="1" parent="1">
           <mxGeometry x="-1227" y="2032" width="330" height="18" as="geometry" />
         </mxCell>
         <mxCell id="jk-Jnqka4b3zd8DsAin8-464" value="什么时候不能再砍了：这种剩下的数量=4的时候" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#E4FDE1;" vertex="1" parent="1">
           <mxGeometry x="-1208" y="2523" width="264" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="jk-Jnqka4b3zd8DsAin8-471" value="F5或者F6砍完之后，剩下2或者3个，退出砍循环，正好我们看他也是要再×2或者3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#E4FDE1;" vertex="1" parent="1">
+          <mxGeometry x="-1449" y="2750" width="444" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="jk-Jnqka4b3zd8DsAin8-472" value="F4不能砍了，退出砍循环，也是正好要×4" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#E4FDE1;" vertex="1" parent="1">
+          <mxGeometry x="-1449" y="2802" width="230" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="jk-Jnqka4b3zd8DsAin8-473" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;sketch=1;strokeColor=#FFCCE6;fillColor=none;fontColor=#E4FDE1;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="-981" y="2734" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jk-Jnqka4b3zd8DsAin8-474" value="退出循环时，最后一次刚好要×剩下的数量" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#E4FDE1;" vertex="1" parent="1">
+          <mxGeometry x="-940" y="2793" width="233" height="18" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
