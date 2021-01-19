@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-19T07:46:39.253Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 Edg/87.0.664.75" etag="SUOiZP7lR4hACjQ6vB9s" version="14.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-19T09:07:05.495Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 Edg/87.0.664.75" etag="LBXL17cFiwcoW4Q_T_6z" version="14.2.4" type="github">
   <diagram id="0Wt7oJnVTkfDVr40ZrOP" name="Page-1">
-    <mxGraphModel dx="2079" dy="2224" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#252528" math="0" shadow="0">
+    <mxGraphModel dx="3372" dy="2249" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#252528" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -188,8 +188,16 @@
         <mxCell id="TskPhFtCetc1E9jzCRDR-65" value="可以从当前对象中拿到环境情况" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#FCFCFC;" vertex="1" parent="1">
           <mxGeometry x="950" y="1200" width="180" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="TskPhFtCetc1E9jzCRDR-67" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;dashed=1;strokeColor=#028090;strokeWidth=6;fillColor=#F45B69;fontColor=#FCFCFC;entryX=0.505;entryY=0.924;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TskPhFtCetc1E9jzCRDR-66" target="TskPhFtCetc1E9jzCRDR-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="TskPhFtCetc1E9jzCRDR-66" value="&lt;b style=&quot;font-size: 16px&quot;&gt;在不同的阶段如果要做不同的操作怎么办?&lt;br&gt;观察者模式: 监听器,事件发布&lt;br&gt;当发布不同的事件之后,监听器接收到之后开始做响应的处理工作&lt;/b&gt;" style="whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;rounded=1;sketch=1;labelBackgroundColor=none;fillColor=#6E3F16;" vertex="1" parent="1">
           <mxGeometry x="750" y="1260" width="580" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TskPhFtCetc1E9jzCRDR-68" value="实例化之前准备好 广播器 和 监听器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#FCFCFC;" vertex="1" parent="1">
+          <mxGeometry x="845" y="290" width="210" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
