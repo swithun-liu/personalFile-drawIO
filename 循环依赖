@@ -1,1 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2021-01-19T09:16:22.076Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 Edg/87.0.664.75" version="14.2.4" etag="aUX4UK6gdb13Qwh1VAdz" type="github"><diagram id="wr71qVXqdy-U_2Xb0jtk">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-19T09:19:05.374Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 Edg/87.0.664.75" etag="H9OiHc5hLiKMwcPyKxd_" version="14.2.4" type="github">
+  <diagram id="wr71qVXqdy-U_2Xb0jtk" name="Page-1">
+    <mxGraphModel dx="600" dy="891" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#252528" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GCSTyXnCO3Z4IgwIokMg-4" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#028090;fillColor=#F45B69;fontColor=#E4FDE1;" edge="1" parent="1" source="GCSTyXnCO3Z4IgwIokMg-2" target="GCSTyXnCO3Z4IgwIokMg-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GCSTyXnCO3Z4IgwIokMg-2" value="循环依赖" style="whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;rounded=1;sketch=1;labelBackgroundColor=none;fillColor=#6E3F16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="220" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GCSTyXnCO3Z4IgwIokMg-3" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1. 什么是循环依赖&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2. spring中如何解决循环依赖问题&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3. 为什么要使用三级缓存解决循环依赖问题? 一级缓存行不行? 二级缓存行不行?&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;rounded=1;sketch=1;labelBackgroundColor=none;fillColor=#6E3F16;" vertex="1" parent="1">
+          <mxGeometry x="250" y="190" width="480" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
