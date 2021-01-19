@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-01-19T09:19:05.374Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 Edg/87.0.664.75" etag="H9OiHc5hLiKMwcPyKxd_" version="14.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-19T09:27:15.578Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 Edg/87.0.664.75" etag="vGiCtBjYNTSrYJM5lCER" version="14.2.4" type="github">
   <diagram id="wr71qVXqdy-U_2Xb0jtk" name="Page-1">
-    <mxGraphModel dx="600" dy="891" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#252528" math="0" shadow="0">
+    <mxGraphModel dx="997" dy="1458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#252528" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="GCSTyXnCO3Z4IgwIokMg-4" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#028090;fillColor=#F45B69;fontColor=#E4FDE1;" edge="1" parent="1" source="GCSTyXnCO3Z4IgwIokMg-2" target="GCSTyXnCO3Z4IgwIokMg-3">
+        <mxCell id="GCSTyXnCO3Z4IgwIokMg-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#028090;fillColor=#F45B69;fontColor=#E4FDE1;" edge="1" parent="1" source="GCSTyXnCO3Z4IgwIokMg-2" target="GCSTyXnCO3Z4IgwIokMg-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GCSTyXnCO3Z4IgwIokMg-2" value="循环依赖" style="whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;rounded=1;sketch=1;labelBackgroundColor=none;fillColor=#6E3F16;" vertex="1" parent="1">
@@ -12,6 +12,46 @@
         </mxCell>
         <mxCell id="GCSTyXnCO3Z4IgwIokMg-3" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1. 什么是循环依赖&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2. spring中如何解决循环依赖问题&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3. 为什么要使用三级缓存解决循环依赖问题? 一级缓存行不行? 二级缓存行不行?&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;rounded=1;sketch=1;labelBackgroundColor=none;fillColor=#6E3F16;" vertex="1" parent="1">
           <mxGeometry x="250" y="190" width="480" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GCSTyXnCO3Z4IgwIokMg-7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#F45B69;fontColor=#E4FDE1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=#03A3B8;strokeWidth=2;" edge="1" parent="1" source="GCSTyXnCO3Z4IgwIokMg-5" target="GCSTyXnCO3Z4IgwIokMg-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="400" />
+              <mxPoint x="420" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GCSTyXnCO3Z4IgwIokMg-5" value="A" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;strokeColor=#028090;fillColor=#F45B69;fontColor=#E4FDE1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GCSTyXnCO3Z4IgwIokMg-8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#03A3B8;fillColor=#F45B69;fontColor=#E4FDE1;strokeWidth=2;" edge="1" parent="1" source="GCSTyXnCO3Z4IgwIokMg-6" target="GCSTyXnCO3Z4IgwIokMg-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="530" />
+              <mxPoint x="200" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GCSTyXnCO3Z4IgwIokMg-6" value="B" style="whiteSpace=wrap;html=1;rounded=1;sketch=1;strokeColor=#028090;fillColor=#F45B69;fontColor=#E4FDE1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GCSTyXnCO3Z4IgwIokMg-9" value="&lt;b&gt;创建对象的时候分成几个步骤?&lt;br&gt;实例化 和 初始化&lt;br&gt;&lt;br&gt;属性赋值 可以在 哪个环节完成&lt;br&gt;可以调用有参构造方法完成&lt;br&gt;也可以通过set方法完成&lt;br&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;rounded=1;sketch=1;labelBackgroundColor=none;fillColor=#6E3F16;align=left;" vertex="1" parent="1">
+          <mxGeometry x="530" y="430" width="490" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="GCSTyXnCO3Z4IgwIokMg-10" value="&lt;b&gt;public class A{&lt;br&gt;&amp;nbsp; &amp;nbsp; public A(B b){&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; this.b= b;&lt;br&gt;&amp;nbsp; &amp;nbsp; }&lt;br&gt;&amp;nbsp; &amp;nbsp; private B b;&lt;br&gt;&amp;nbsp; &amp;nbsp; setB()&lt;br&gt;&amp;nbsp; &amp;nbsp; getB()&lt;br&gt;}&lt;br&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;rounded=1;sketch=1;labelBackgroundColor=none;fillColor=#6E3F16;align=left;" vertex="1" parent="1">
+          <mxGeometry x="180" y="620" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GCSTyXnCO3Z4IgwIokMg-11" value="&lt;b&gt;public class B{&lt;br&gt;private A a;&lt;br&gt;setA()&lt;br&gt;getA()&lt;br&gt;}&lt;br&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;rounded=1;sketch=1;labelBackgroundColor=none;fillColor=#6E3F16;align=left;" vertex="1" parent="1">
+          <mxGeometry x="360" y="620" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GCSTyXnCO3Z4IgwIokMg-12" value="&lt;b&gt;&amp;lt;bean id class&amp;gt;&lt;br&gt;&amp;lt;property name=value=/&amp;gt;&lt;br&gt;&amp;lt;constructor-arg name=value=/&amp;gt;&lt;br&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;rounded=1;sketch=1;labelBackgroundColor=none;fillColor=#6E3F16;align=left;" vertex="1" parent="1">
+          <mxGeometry x="540" y="620" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GCSTyXnCO3Z4IgwIokMg-13" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;循环依赖问题:&lt;br style=&quot;font-size: 16px;&quot;&gt;如果是通过构造器方式, 那么没办法解决&lt;br style=&quot;font-size: 16px;&quot;&gt;如果是通过set方式, 那么可以使用三级缓存解决此问题&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;rounded=1;sketch=1;labelBackgroundColor=none;fillColor=#6E3F16;align=left;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="550" y="800" width="310" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GCSTyXnCO3Z4IgwIokMg-14" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;前提保证: 创建的所有对象都是单例对象&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;rounded=1;sketch=1;labelBackgroundColor=none;fillColor=#6E3F16;align=left;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="130" y="980" width="900" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
