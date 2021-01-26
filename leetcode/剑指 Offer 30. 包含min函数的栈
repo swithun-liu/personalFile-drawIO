@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-26T03:32:38.337Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36 Edg/88.0.705.50" etag="qvuBR2lsShr_w-tyTdIM" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-26T03:33:40.345Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36 Edg/88.0.705.50" etag="bPZiSJQOt2gqDmS19dBf" version="14.2.7" type="github">
   <diagram id="XuSFJ7tlnNVeef0jqx63" name="Page-1">
     <mxGraphModel dx="1635" dy="913" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#252528" math="0" shadow="0">
       <root>
@@ -258,18 +258,6 @@
         </mxCell>
         <mxCell id="EP7ZXNIDTDsCtxG53Qvh-117" value="pop" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#E4FDE1;" vertex="1" parent="1">
           <mxGeometry x="1160" y="190" width="40" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="EP7ZXNIDTDsCtxG53Qvh-118" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=1;sketch=1;strokeColor=#9999FF;fillColor=#000099;fontColor=#E4FDE1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="580" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="EP7ZXNIDTDsCtxG53Qvh-119" value="" style="group;rounded=0;sketch=0;strokeColor=#028090;fillColor=#F45B69;fontColor=#E4FDE1;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="400" y="585" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="EP7ZXNIDTDsCtxG53Qvh-120" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=1;sketch=1;fontColor=#E4FDE1;fillColor=none;strokeColor=#9999FF;" vertex="1" parent="EP7ZXNIDTDsCtxG53Qvh-119">
-          <mxGeometry width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="EP7ZXNIDTDsCtxG53Qvh-121" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=1;sketch=1;fontColor=#E4FDE1;strokeColor=#9999FF;fillColor=#000099;" vertex="1" parent="EP7ZXNIDTDsCtxG53Qvh-119">
-          <mxGeometry x="5" y="4" width="30" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
