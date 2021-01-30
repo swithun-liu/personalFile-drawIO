@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-30T14:27:00.041Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36 Edg/88.0.705.53" etag="RIpMgurb4poz0S1WMoZJ" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-30T14:42:58.345Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36 Edg/88.0.705.53" etag="hPYpvgREgGchPCaRnniI" version="14.2.7" type="github">
   <diagram id="-1QcQHmr_lqy2moybudr" name="Page-1">
     <mxGraphModel dx="934" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#252528" math="0" shadow="0">
       <root>
@@ -168,7 +168,7 @@
         <mxCell id="9IvcP4hDzCJQ6Kc4irMx-71" value="0" style="whiteSpace=wrap;html=1;sketch=1;rounded=1;fontColor=#E4FDE1;strokeColor=#99FFFF;fillColor=#00CCCC;" vertex="1" parent="1">
           <mxGeometry x="690" y="600" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9IvcP4hDzCJQ6Kc4irMx-73" value="还存在几个&lt;br&gt;(当上一层为0, &lt;br&gt;队列李里面剩几个&lt;br&gt;就是下一层有几个)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#E4FDE1;" vertex="1" parent="1">
+        <mxCell id="9IvcP4hDzCJQ6Kc4irMx-73" value="还存在几个&lt;br&gt;(当上一层为0, &lt;br&gt;队列里面剩几个&lt;br&gt;就是下一层有几个)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#E4FDE1;" vertex="1" parent="1">
           <mxGeometry x="690" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9IvcP4hDzCJQ6Kc4irMx-74" value="上一层存在几个" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#E4FDE1;" vertex="1" parent="1">
