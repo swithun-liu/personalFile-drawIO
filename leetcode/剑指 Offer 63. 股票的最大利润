@@ -1,11 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2021-02-23T09:22:57.870Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.74" etag="jDI0WKuqejo1wEXad_eJ" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-23T09:35:37.734Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.74" etag="qCNEZqlZkcAVAERuX97M" version="14.4.2" type="github">
   <diagram id="Tsn2RtcBY7RQppKWuQNb" name="Page-1">
-    <mxGraphModel dx="723" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#252528" math="0" shadow="0">
+    <mxGraphModel dx="1334" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#252528" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="U3GMB1yVjSacL6jGPn4P-1" value="7" style="whiteSpace=wrap;html=1;sketch=1;rounded=1;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;" vertex="1" parent="1">
           <mxGeometry x="-80" y="320" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U3GMB1yVjSacL6jGPn4P-12" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#028090;fillColor=#F45B69;fontColor=#E4FDE1;" edge="1" parent="1" source="U3GMB1yVjSacL6jGPn4P-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-20" y="240" />
+              <mxPoint x="60" y="240" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="U3GMB1yVjSacL6jGPn4P-2" value="1" style="whiteSpace=wrap;html=1;sketch=1;rounded=1;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;" vertex="1" parent="1">
           <mxGeometry x="-40" y="320" width="40" height="40" as="geometry" />
@@ -22,11 +31,68 @@
         <mxCell id="U3GMB1yVjSacL6jGPn4P-6" value="4" style="whiteSpace=wrap;html=1;sketch=1;rounded=1;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;" vertex="1" parent="1">
           <mxGeometry x="120" y="320" width="40" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="U3GMB1yVjSacL6jGPn4P-11" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#028090;fillColor=#F45B69;fontColor=#E4FDE1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="U3GMB1yVjSacL6jGPn4P-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="20" y="440" />
+              <mxPoint x="100" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="U3GMB1yVjSacL6jGPn4P-7" value="" style="whiteSpace=wrap;html=1;sketch=1;rounded=1;fontColor=#E4FDE1;fillColor=#999900;strokeColor=#FFFF99;" vertex="1" parent="1">
           <mxGeometry x="-80" y="320" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="U3GMB1yVjSacL6jGPn4P-8" value="" style="whiteSpace=wrap;html=1;sketch=1;rounded=1;fontColor=#E4FDE1;strokeColor=#9999FF;fillColor=#000099;" vertex="1" parent="1">
           <mxGeometry x="40" y="320" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U3GMB1yVjSacL6jGPn4P-13" value="1 &amp;lt; 5 :&amp;nbsp; 后面的数 - 1 一定 &amp;gt; -5&amp;nbsp;&lt;br&gt;所以如果后边的数比 前边的大-&amp;gt; 没必要算了" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#E4FDE1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="300" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U3GMB1yVjSacL6jGPn4P-14" value="7" style="whiteSpace=wrap;html=1;sketch=1;rounded=1;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="560" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U3GMB1yVjSacL6jGPn4P-15" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#028090;fillColor=#F45B69;fontColor=#E4FDE1;" edge="1" parent="1" source="U3GMB1yVjSacL6jGPn4P-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-20" y="480" />
+              <mxPoint x="60" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3GMB1yVjSacL6jGPn4P-16" value="1" style="whiteSpace=wrap;html=1;sketch=1;rounded=1;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="560" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U3GMB1yVjSacL6jGPn4P-17" value="5" style="whiteSpace=wrap;html=1;sketch=1;rounded=1;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry y="560" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U3GMB1yVjSacL6jGPn4P-18" value="3" style="whiteSpace=wrap;html=1;sketch=1;rounded=1;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="40" y="560" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U3GMB1yVjSacL6jGPn4P-19" value="6" style="whiteSpace=wrap;html=1;sketch=1;rounded=1;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="80" y="560" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U3GMB1yVjSacL6jGPn4P-20" value="4" style="whiteSpace=wrap;html=1;sketch=1;rounded=1;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="120" y="560" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U3GMB1yVjSacL6jGPn4P-21" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#028090;fillColor=#F45B69;fontColor=#E4FDE1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="U3GMB1yVjSacL6jGPn4P-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-60" y="680" />
+              <mxPoint x="100" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3GMB1yVjSacL6jGPn4P-22" value="" style="whiteSpace=wrap;html=1;sketch=1;rounded=1;fontColor=#E4FDE1;fillColor=#999900;strokeColor=#FFFF99;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="560" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U3GMB1yVjSacL6jGPn4P-23" value="" style="whiteSpace=wrap;html=1;sketch=1;rounded=1;fontColor=#E4FDE1;strokeColor=#9999FF;fillColor=#000099;" vertex="1" parent="1">
+          <mxGeometry x="40" y="560" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U3GMB1yVjSacL6jGPn4P-24" value="6 - 7 = -1&amp;nbsp; 最大,&lt;br&gt;然后 1 不用具体算, 一定是用 6 - 1 最大" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#E4FDE1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="565" width="240" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
