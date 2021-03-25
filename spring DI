@@ -1,1 +1,41 @@
-<mxfile host="app.diagrams.net" modified="2021-03-25T06:43:07.718Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.57" version="14.5.1" etag="gGTiFT5KZNejHNQ8k0WN" type="github"><diagram id="_ijZXszeZmT0VCln0muU">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-25T06:47:50.258Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.57" etag="dEy7GUs0s-RulAstvgdo" version="14.5.1" type="github">
+  <diagram id="_ijZXszeZmT0VCln0muU" name="Page-1">
+    <mxGraphModel dx="1091" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#252528" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bNXn9lpY3zciIGXUS-Fl-10" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=1;strokeColor=#028090;fillColor=none;fontColor=#E4FDE1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="160" width="990" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="bNXn9lpY3zciIGXUS-Fl-1" value="ApplicationContext&lt;br&gt;( Spring 容器 )" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#028090;fillColor=#F45B69;fontColor=#E4FDE1;sketch=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="230" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bNXn9lpY3zciIGXUS-Fl-3" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#028090;fillColor=#F45B69;fontColor=#E4FDE1;curved=1;sketch=1;" edge="1" parent="1" source="bNXn9lpY3zciIGXUS-Fl-2" target="bNXn9lpY3zciIGXUS-Fl-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bNXn9lpY3zciIGXUS-Fl-4" value="注册" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#E4FDE1;labelBackgroundColor=none;sketch=1;rounded=1;" vertex="1" connectable="0" parent="bNXn9lpY3zciIGXUS-Fl-3">
+          <mxGeometry x="0.1404" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bNXn9lpY3zciIGXUS-Fl-2" value="Configuration&amp;nbsp;&lt;br&gt;( java / xml )" style="whiteSpace=wrap;html=1;strokeColor=#028090;fillColor=#F45B69;fontColor=#E4FDE1;sketch=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bNXn9lpY3zciIGXUS-Fl-6" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#028090;fillColor=#F45B69;fontColor=#E4FDE1;curved=1;sketch=1;" edge="1" parent="1" source="bNXn9lpY3zciIGXUS-Fl-5" target="bNXn9lpY3zciIGXUS-Fl-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bNXn9lpY3zciIGXUS-Fl-7" value="请求创建bean对象" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#E4FDE1;labelBackgroundColor=none;sketch=1;rounded=1;" vertex="1" connectable="0" parent="bNXn9lpY3zciIGXUS-Fl-6">
+          <mxGeometry x="-0.1539" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bNXn9lpY3zciIGXUS-Fl-5" value="bean" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=none;strokeColor=#028090;fillColor=#F45B69;fontColor=#E4FDE1;sketch=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="200" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bNXn9lpY3zciIGXUS-Fl-11" value="ApplicationContext&lt;br&gt;( Spring 容器 )" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#028090;fillColor=#F45B69;fontColor=#E4FDE1;sketch=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="260" width="160" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
