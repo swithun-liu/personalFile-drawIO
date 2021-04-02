@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-02T02:19:40.289Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63" etag="iYkDAGT41o0gca12dVNu" version="14.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-02T02:22:54.536Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63" etag="UViUe2pPEpUVy8KJE1O8" version="14.5.1" type="github">
   <diagram id="QM7FBSWFoky77C9kTpXL" name="Page-1">
     <mxGraphModel dx="1918" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -79,14 +79,25 @@
         <mxCell id="uUCdHAvFFI1nVvlfzoau-9" value="任务模板" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="360" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="uUCdHAvFFI1nVvlfzoau-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uUCdHAvFFI1nVvlfzoau-10" target="uUCdHAvFFI1nVvlfzoau-16">
+        <mxCell id="uUCdHAvFFI1nVvlfzoau-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="uUCdHAvFFI1nVvlfzoau-10" target="uUCdHAvFFI1nVvlfzoau-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uUCdHAvFFI1nVvlfzoau-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uUCdHAvFFI1nVvlfzoau-10" target="uUCdHAvFFI1nVvlfzoau-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="uUCdHAvFFI1nVvlfzoau-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uUCdHAvFFI1nVvlfzoau-10" target="uUCdHAvFFI1nVvlfzoau-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uUCdHAvFFI1nVvlfzoau-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uUCdHAvFFI1nVvlfzoau-10" target="uUCdHAvFFI1nVvlfzoau-84">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="890" y="420" />
+              <mxPoint x="960" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="uUCdHAvFFI1nVvlfzoau-10" value="奖罚" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="810" y="360" width="80" height="40" as="geometry" />
+          <mxGeometry x="850" y="360" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="uUCdHAvFFI1nVvlfzoau-11" value="CURD任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-80" y="440" width="40" height="80" as="geometry" />
@@ -215,7 +226,7 @@
           <mxGeometry x="730" y="440" width="40" height="160" as="geometry" />
         </mxCell>
         <mxCell id="uUCdHAvFFI1nVvlfzoau-64" value="展式奖罚情况" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="930" y="440" width="40" height="80" as="geometry" />
+          <mxGeometry x="1000" y="440" width="40" height="80" as="geometry" />
         </mxCell>
         <mxCell id="uUCdHAvFFI1nVvlfzoau-67" value="开始任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="440" width="40" height="80" as="geometry" />
@@ -228,6 +239,9 @@
         </mxCell>
         <mxCell id="uUCdHAvFFI1nVvlfzoau-82" value="&lt;h1&gt;Frontend&lt;/h1&gt;&lt;p&gt;对数据进行可视化, 以及提供必要的操作&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="120" y="920" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uUCdHAvFFI1nVvlfzoau-84" value="购买商品" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="440" width="40" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
