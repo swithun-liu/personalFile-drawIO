@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-02T02:17:42.569Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63" etag="1YNX0_3Pk5Icxxm3UyGQ" version="14.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-02T02:19:40.289Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63" etag="iYkDAGT41o0gca12dVNu" version="14.5.1" type="github">
   <diagram id="QM7FBSWFoky77C9kTpXL" name="Page-1">
     <mxGraphModel dx="1918" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -61,7 +61,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="640" y="420" />
-              <mxPoint x="750" y="420" />
+              <mxPoint x="680" y="420" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -107,7 +107,7 @@
           <mxGeometry x="800" y="440" width="40" height="80" as="geometry" />
         </mxCell>
         <mxCell id="uUCdHAvFFI1nVvlfzoau-17" value="添加/删除查询模板" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="730" y="440" width="40" height="160" as="geometry" />
+          <mxGeometry x="660" y="440" width="40" height="160" as="geometry" />
         </mxCell>
         <mxCell id="uUCdHAvFFI1nVvlfzoau-18" value="查询奖罚信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="870" y="440" width="40" height="80" as="geometry" />
@@ -212,7 +212,7 @@
           <mxGeometry x="530" y="440" width="40" height="80" as="geometry" />
         </mxCell>
         <mxCell id="uUCdHAvFFI1nVvlfzoau-63" value="展式统计情况" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="670" y="440" width="40" height="110" as="geometry" />
+          <mxGeometry x="730" y="440" width="40" height="160" as="geometry" />
         </mxCell>
         <mxCell id="uUCdHAvFFI1nVvlfzoau-64" value="展式奖罚情况" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="930" y="440" width="40" height="80" as="geometry" />
