@@ -1,1 +1,176 @@
-<mxfile host="app.diagrams.net" modified="2021-04-20T12:31:05.087Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 Edg/89.0.774.77" version="14.6.3" etag="oGQXLRI5ZCcaeHtzjNH9" type="github"><diagram id="iXDsqfz4_wi-7ydtT-sb">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-20T13:14:31.255Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 Edg/89.0.774.77" etag="UD32Gqm5j0WeYAXszNWY" version="14.6.3" type="github">
+  <diagram id="iXDsqfz4_wi-7ydtT-sb" name="Page-1">
+    <mxGraphModel dx="1182" dy="1313" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#DAD2D8" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aiNHPKBc88--WupG7UQ1-3" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;sketch=1;curved=1;labelBackgroundColor=#DAD2D8;strokeColor=#A8201A;fontColor=#143642;" edge="1" parent="1" source="aiNHPKBc88--WupG7UQ1-4" target="aiNHPKBc88--WupG7UQ1-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1450" y="-30" as="sourcePoint" />
+            <mxPoint x="1610" y="-30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aiNHPKBc88--WupG7UQ1-7" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curved=1;labelBackgroundColor=#DAD2D8;strokeColor=#A8201A;fontColor=#143642;" edge="1" parent="1" source="aiNHPKBc88--WupG7UQ1-4" target="aiNHPKBc88--WupG7UQ1-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aiNHPKBc88--WupG7UQ1-4" value="Authentication" style="whiteSpace=wrap;html=1;sketch=1;rounded=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aiNHPKBc88--WupG7UQ1-5" value="principle" style="whiteSpace=wrap;html=1;sketch=1;rounded=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="-210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aiNHPKBc88--WupG7UQ1-6" value="&lt;ol class=&quot;list-paddingleft-2 js_darkmode__10&quot; style=&quot;margin: 0px ; padding: 0px 0px 0px 24px ; max-width: 100% ; box-sizing: border-box ; overflow-wrap: break-word ; font-style: normal ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; font-size: 15px&quot;&gt;&lt;li style=&quot;margin: 0px ; padding: 0px ; max-width: 100% ; box-sizing: border-box ; overflow-wrap: break-word&quot;&gt;&lt;section style=&quot;margin: 4px 0px ; padding: 0px ; max-width: 100% ; box-sizing: border-box ; overflow-wrap: break-word ; line-height: 24px&quot;&gt;&lt;font style=&quot;background-color: rgb(255 , 255 , 255)&quot; color=&quot;#09090a&quot;&gt;getAuthorities 方法用来获取用户的权限。&lt;/font&gt;&lt;/section&gt;&lt;/li&gt;&lt;li style=&quot;margin: 0px ; padding: 0px ; max-width: 100% ; box-sizing: border-box ; overflow-wrap: break-word&quot;&gt;&lt;section style=&quot;margin: 4px 0px ; padding: 0px ; max-width: 100% ; box-sizing: border-box ; overflow-wrap: break-word ; line-height: 24px&quot;&gt;&lt;font style=&quot;background-color: rgb(255 , 255 , 255)&quot; color=&quot;#09090a&quot;&gt;getCredentials 方法用来获取用户凭证，一般来说就是密码。&lt;/font&gt;&lt;/section&gt;&lt;/li&gt;&lt;li style=&quot;margin: 0px ; padding: 0px ; max-width: 100% ; box-sizing: border-box ; overflow-wrap: break-word&quot;&gt;&lt;section style=&quot;margin: 4px 0px ; padding: 0px ; max-width: 100% ; box-sizing: border-box ; overflow-wrap: break-word ; line-height: 24px&quot;&gt;&lt;font style=&quot;background-color: rgb(255 , 255 , 255)&quot; color=&quot;#09090a&quot;&gt;getDetails 方法用来获取用户携带的详细信息，可能是当前请求之类的东西。&lt;/font&gt;&lt;/section&gt;&lt;/li&gt;&lt;li style=&quot;margin: 0px ; padding: 0px ; max-width: 100% ; box-sizing: border-box ; overflow-wrap: break-word&quot;&gt;&lt;section style=&quot;margin: 4px 0px ; padding: 0px ; max-width: 100% ; box-sizing: border-box ; overflow-wrap: break-word ; line-height: 24px&quot;&gt;&lt;font style=&quot;background-color: rgb(255 , 255 , 255)&quot; color=&quot;#09090a&quot;&gt;getPrincipal 方法用来获取当前用户，可能是一个用户名，也可能是一个用户对象。&lt;/font&gt;&lt;/section&gt;&lt;/li&gt;&lt;li style=&quot;margin: 0px ; padding: 0px ; max-width: 100% ; box-sizing: border-box ; overflow-wrap: break-word&quot;&gt;&lt;section style=&quot;margin: 4px 0px ; padding: 0px ; max-width: 100% ; box-sizing: border-box ; overflow-wrap: break-word ; line-height: 24px&quot;&gt;&lt;font style=&quot;background-color: rgb(255 , 255 , 255)&quot; color=&quot;#09090a&quot;&gt;isAuthenticated 当前用户是否认证成功。&lt;/font&gt;&lt;/section&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;whiteSpace=wrap;html=1;sketch=1;rounded=1;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="120" width="480" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="aiNHPKBc88--WupG7UQ1-14" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=-0.001;exitY=0.15;exitDx=0;exitDy=0;entryX=1.002;entryY=0.179;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;sketch=1;curved=1;labelBackgroundColor=#DAD2D8;strokeColor=#A8201A;fontColor=#143642;" edge="1" parent="1" source="aiNHPKBc88--WupG7UQ1-70" target="aiNHPKBc88--WupG7UQ1-69">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1670" y="-30" as="sourcePoint" />
+            <mxPoint x="1720" y="-70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aiNHPKBc88--WupG7UQ1-21" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;sketch=1;curved=1;labelBackgroundColor=#DAD2D8;strokeColor=#A8201A;fontColor=#143642;" edge="1" parent="1" source="aiNHPKBc88--WupG7UQ1-25" target="aiNHPKBc88--WupG7UQ1-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aiNHPKBc88--WupG7UQ1-23" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.003;entryY=0.422;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#FAE5C7;strokeColor=#A8201A;strokeWidth=4;sketch=1;curved=1;labelBackgroundColor=#DAD2D8;fontColor=#143642;" edge="1" parent="1" source="aiNHPKBc88--WupG7UQ1-25" target="aiNHPKBc88--WupG7UQ1-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1230" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aiNHPKBc88--WupG7UQ1-24" value="认证成功-&amp;gt;返回一个" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;rounded=1;labelBackgroundColor=#DAD2D8;fontColor=#143642;" vertex="1" connectable="0" parent="aiNHPKBc88--WupG7UQ1-23">
+          <mxGeometry x="0.0467" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aiNHPKBc88--WupG7UQ1-20" value="处理身份认证" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;sketch=1;rounded=1;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="690" y="200" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aiNHPKBc88--WupG7UQ1-25" value="«interface»&lt;br&gt;&lt;span&gt;AuthentiationManager&lt;/span&gt;" style="html=1;sketch=1;rounded=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="670" y="315" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aiNHPKBc88--WupG7UQ1-26" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;sketch=1;curved=1;labelBackgroundColor=#DAD2D8;strokeColor=#A8201A;fontColor=#143642;" edge="1" parent="1" source="aiNHPKBc88--WupG7UQ1-27" target="aiNHPKBc88--WupG7UQ1-25">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1030" y="550" as="sourcePoint" />
+            <mxPoint x="1190" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aiNHPKBc88--WupG7UQ1-27" value="ProviderManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;sketch=1;rounded=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="660" y="450" width="160" height="86" as="geometry">
+            <mxRectangle x="820" y="570" width="140" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aiNHPKBc88--WupG7UQ1-28" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;rounded=1;fontColor=#143642;" vertex="1" parent="aiNHPKBc88--WupG7UQ1-27">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="aiNHPKBc88--WupG7UQ1-29" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;sketch=1;rounded=1;labelBackgroundColor=#DAD2D8;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="aiNHPKBc88--WupG7UQ1-27">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="aiNHPKBc88--WupG7UQ1-30" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;rounded=1;fontColor=#143642;" vertex="1" parent="aiNHPKBc88--WupG7UQ1-27">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="aiNHPKBc88--WupG7UQ1-39" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=15;entryDy=100;entryPerimeter=0;exitX=0.433;exitY=1.003;exitDx=0;exitDy=0;exitPerimeter=0;sketch=1;curved=1;labelBackgroundColor=#DAD2D8;strokeColor=#A8201A;fontColor=#143642;" edge="1" parent="1" source="aiNHPKBc88--WupG7UQ1-40" target="aiNHPKBc88--WupG7UQ1-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aiNHPKBc88--WupG7UQ1-36" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.004;entryY=0.194;entryDx=0;entryDy=0;entryPerimeter=0;sketch=1;curved=1;labelBackgroundColor=#DAD2D8;strokeColor=#A8201A;fontColor=#143642;" edge="1" parent="1" source="aiNHPKBc88--WupG7UQ1-27" target="aiNHPKBc88--WupG7UQ1-40">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="970" y="630" as="sourcePoint" />
+            <mxPoint x="1130" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aiNHPKBc88--WupG7UQ1-37" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;rounded=1;labelBackgroundColor=#DAD2D8;fontColor=#143642;" vertex="1" connectable="0" parent="aiNHPKBc88--WupG7UQ1-36">
+          <mxGeometry x="0.8208" y="1" relative="1" as="geometry">
+            <mxPoint x="-4" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aiNHPKBc88--WupG7UQ1-38" value="&lt;span style=&quot;letter-spacing: 1px ; text-align: left ; word-spacing: 3px ; background-color: rgb(247 , 247 , 247)&quot;&gt;&lt;font color=&quot;#0f0f0f&quot; style=&quot;font-size: 12px&quot;&gt;认证器，不同的 AuthenticationProvider 用来处理不同的 Authentication 对象的认证&lt;/font&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=30;dy=15;size=5;boundedLbl=1;sketch=1;rounded=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="640" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="aiNHPKBc88--WupG7UQ1-40" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;AuthenticationProvider&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ authenticate 验证用户身份&lt;br&gt;+ support &quot;this 是否支持对应的authentication&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;sketch=1;rounded=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="410" width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="aiNHPKBc88--WupG7UQ1-56" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;entryX=1.005;entryY=0.451;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.012;exitY=0.179;exitDx=0;exitDy=0;exitPerimeter=0;sketch=1;curved=1;labelBackgroundColor=#DAD2D8;strokeColor=#A8201A;fontColor=#143642;" edge="1" parent="1" source="aiNHPKBc88--WupG7UQ1-57" target="aiNHPKBc88--WupG7UQ1-40">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1400" y="630" as="sourcePoint" />
+            <mxPoint x="1380" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aiNHPKBc88--WupG7UQ1-57" value="AbstractUserDetailsAuthenticationProvider" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;sketch=1;rounded=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="430" width="280" height="140" as="geometry">
+            <mxRectangle x="1620" y="430" width="300" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aiNHPKBc88--WupG7UQ1-58" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;rounded=1;fontColor=#143642;" vertex="1" parent="aiNHPKBc88--WupG7UQ1-57">
+          <mxGeometry y="26" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="aiNHPKBc88--WupG7UQ1-59" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;sketch=1;rounded=1;labelBackgroundColor=#DAD2D8;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="aiNHPKBc88--WupG7UQ1-57">
+          <mxGeometry y="52" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="aiNHPKBc88--WupG7UQ1-60" value="+ authenticate 验证用户身份&#xa;+ support &quot;this 是否支持对应的authentication" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;rounded=1;fontColor=#143642;" vertex="1" parent="aiNHPKBc88--WupG7UQ1-57">
+          <mxGeometry y="60" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aiNHPKBc88--WupG7UQ1-61" value="DaoAuthenticationProvider" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;sketch=1;rounded=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="2090" y="430" width="320" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="aiNHPKBc88--WupG7UQ1-62" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;rounded=1;fontColor=#143642;" vertex="1" parent="aiNHPKBc88--WupG7UQ1-61">
+          <mxGeometry y="26" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="aiNHPKBc88--WupG7UQ1-63" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;sketch=1;rounded=1;labelBackgroundColor=#DAD2D8;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="aiNHPKBc88--WupG7UQ1-61">
+          <mxGeometry y="52" width="320" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="aiNHPKBc88--WupG7UQ1-64" value="additionalAuthenticationChecks &quot;密码对比&quot;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;rounded=1;fontColor=#143642;" vertex="1" parent="aiNHPKBc88--WupG7UQ1-61">
+          <mxGeometry y="60" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="aiNHPKBc88--WupG7UQ1-65" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;sketch=1;curved=1;labelBackgroundColor=#DAD2D8;strokeColor=#A8201A;fontColor=#143642;" edge="1" parent="1" source="aiNHPKBc88--WupG7UQ1-61" target="aiNHPKBc88--WupG7UQ1-58">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1600" y="830" as="sourcePoint" />
+            <mxPoint x="1760" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aiNHPKBc88--WupG7UQ1-66" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#FAE5C7;strokeColor=#A8201A;exitX=0.714;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;sketch=1;curved=1;labelBackgroundColor=#DAD2D8;fontColor=#143642;" edge="1" parent="1" source="aiNHPKBc88--WupG7UQ1-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1619.9999999999998" y="610.21" as="sourcePoint" />
+            <mxPoint x="1425" y="67" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1440" y="515" />
+              <mxPoint x="1440" y="360" />
+              <mxPoint x="1310" y="360" />
+              <mxPoint x="1310" y="67" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aiNHPKBc88--WupG7UQ1-67" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#FAE5C7;strokeColor=#A8201A;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curved=1;labelBackgroundColor=#DAD2D8;fontColor=#143642;" edge="1" parent="1" source="aiNHPKBc88--WupG7UQ1-60" target="aiNHPKBc88--WupG7UQ1-71">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1849.92" y="525" as="sourcePoint" />
+            <mxPoint x="1945" y="77" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1960" y="525" />
+              <mxPoint x="1960" y="-171" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aiNHPKBc88--WupG7UQ1-68" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=-0.002;exitY=0.164;exitDx=0;exitDy=0;exitPerimeter=0;sketch=1;curved=1;labelBackgroundColor=#DAD2D8;strokeColor=#A8201A;fontColor=#143642;" edge="1" parent="1" source="aiNHPKBc88--WupG7UQ1-69" target="aiNHPKBc88--WupG7UQ1-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1790" y="-120" as="sourcePoint" />
+            <mxPoint x="1584.7600000000002" y="-101.91999999999985" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aiNHPKBc88--WupG7UQ1-69" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;font size=&quot;1&quot;&gt;&lt;b&gt;AbstractAuthenticationToken&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ authenticate 验证用户身份&lt;br&gt;+ support &quot;this 是否支持对应的authentication&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;sketch=1;rounded=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="-200" width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="aiNHPKBc88--WupG7UQ1-70" value="UsernamePasswordAuthenticationToken" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;sketch=1;rounded=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="2010" y="-210" width="310" height="86" as="geometry">
+            <mxRectangle x="820" y="570" width="140" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aiNHPKBc88--WupG7UQ1-71" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;rounded=1;fontColor=#143642;" vertex="1" parent="aiNHPKBc88--WupG7UQ1-70">
+          <mxGeometry y="26" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="aiNHPKBc88--WupG7UQ1-72" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;sketch=1;rounded=1;labelBackgroundColor=#DAD2D8;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="aiNHPKBc88--WupG7UQ1-70">
+          <mxGeometry y="52" width="310" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="aiNHPKBc88--WupG7UQ1-73" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;rounded=1;fontColor=#143642;" vertex="1" parent="aiNHPKBc88--WupG7UQ1-70">
+          <mxGeometry y="60" width="310" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
