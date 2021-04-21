@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-21T06:00:28.894Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 Edg/89.0.774.77" etag="WYvbRCBz2VUwCzbvVlUM" version="14.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-21T06:05:19.752Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 Edg/89.0.774.77" etag="fEE75Z0qnHk5qNKnkKP4" version="14.6.3" type="github">
   <diagram id="iXDsqfz4_wi-7ydtT-sb" name="Page-1">
     <mxGraphModel dx="1182" dy="1713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -242,7 +242,7 @@
         <mxCell id="aiNHPKBc88--WupG7UQ1-121" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=15;entryDy=60;entryPerimeter=0;fontColor=#46495D;strokeColor=#788AA3;strokeWidth=1;fillColor=#B2C9AB;" edge="1" parent="1" source="aiNHPKBc88--WupG7UQ1-93" target="aiNHPKBc88--WupG7UQ1-120">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aiNHPKBc88--WupG7UQ1-93" value="&lt;&lt;interface&gt;&gt;&#xa;JwtStudentUserDetailService&#xa;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;fillColor=#dae8fc;rounded=1;sketch=1;" vertex="1" parent="1">
+        <mxCell id="aiNHPKBc88--WupG7UQ1-93" value="&lt;&lt;interface&gt;&gt;&#xa;JwtStudentUserDetailService&#xa;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#9673a6;fillColor=#e1d5e7;rounded=1;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="2680" y="640" width="310" height="130" as="geometry" />
         </mxCell>
         <mxCell id="aiNHPKBc88--WupG7UQ1-94" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;sketch=1;" vertex="1" parent="aiNHPKBc88--WupG7UQ1-93">
@@ -257,7 +257,7 @@
         <mxCell id="aiNHPKBc88--WupG7UQ1-123" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.092;entryY=1.067;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#46495D;strokeColor=#788AA3;strokeWidth=1;fillColor=#B2C9AB;" edge="1" parent="1" source="aiNHPKBc88--WupG7UQ1-97" target="aiNHPKBc88--WupG7UQ1-122">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aiNHPKBc88--WupG7UQ1-97" value="&lt;&lt;interface&gt;&gt;&#xa;JwtStudentUserDetailService&#xa;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;fillColor=#dae8fc;rounded=1;sketch=1;" vertex="1" parent="1">
+        <mxCell id="aiNHPKBc88--WupG7UQ1-97" value="&lt;&lt;interface&gt;&gt;&#xa;JwtStudentUserDetailService&#xa;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#9673a6;fillColor=#e1d5e7;rounded=1;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="2670" y="820" width="310" height="120" as="geometry" />
         </mxCell>
         <mxCell id="aiNHPKBc88--WupG7UQ1-98" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;sketch=1;" vertex="1" parent="aiNHPKBc88--WupG7UQ1-97">
