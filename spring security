@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-21T08:23:18.889Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 Edg/89.0.774.77" etag="4kGTREUogu8Yzs1nQqHu" version="14.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-21T08:31:57.831Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 Edg/89.0.774.77" etag="OehKw6nTmzeGjHGuY0Mc" version="14.6.3" type="github">
   <diagram id="iXDsqfz4_wi-7ydtT-sb" name="Page-1">
-    <mxGraphModel dx="2660" dy="2104" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4355" dy="3083" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -309,7 +309,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aiNHPKBc88--WupG7UQ1-128" value="StudentDaoAuthenticationProvider" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;sketch=1;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
-          <mxGeometry x="2590" y="30" width="330" height="86" as="geometry" />
+          <mxGeometry x="2590" y="30" width="330" height="120" as="geometry" />
         </mxCell>
         <mxCell id="aiNHPKBc88--WupG7UQ1-129" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="aiNHPKBc88--WupG7UQ1-128">
           <mxGeometry y="26" width="330" height="26" as="geometry" />
@@ -317,11 +317,11 @@
         <mxCell id="aiNHPKBc88--WupG7UQ1-130" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="aiNHPKBc88--WupG7UQ1-128">
           <mxGeometry y="52" width="330" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="aiNHPKBc88--WupG7UQ1-131" value="+ support" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="aiNHPKBc88--WupG7UQ1-128">
-          <mxGeometry y="60" width="330" height="26" as="geometry" />
+        <mxCell id="aiNHPKBc88--WupG7UQ1-131" value="+ (encoder, userdetialService)&#xa;+ support" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="aiNHPKBc88--WupG7UQ1-128">
+          <mxGeometry y="60" width="330" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aiNHPKBc88--WupG7UQ1-132" value="TeacherDaoAuthenticationProvider" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;sketch=1;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
-          <mxGeometry x="2590" y="296" width="330" height="86" as="geometry" />
+          <mxGeometry x="2640" y="344" width="330" height="100" as="geometry" />
         </mxCell>
         <mxCell id="aiNHPKBc88--WupG7UQ1-133" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="aiNHPKBc88--WupG7UQ1-132">
           <mxGeometry y="26" width="330" height="26" as="geometry" />
@@ -329,8 +329,8 @@
         <mxCell id="aiNHPKBc88--WupG7UQ1-134" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="aiNHPKBc88--WupG7UQ1-132">
           <mxGeometry y="52" width="330" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="aiNHPKBc88--WupG7UQ1-135" value="+ support" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="aiNHPKBc88--WupG7UQ1-132">
-          <mxGeometry y="60" width="330" height="26" as="geometry" />
+        <mxCell id="aiNHPKBc88--WupG7UQ1-135" value="+ (encoder, userdetialService)&#xa;+ support" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="aiNHPKBc88--WupG7UQ1-132">
+          <mxGeometry y="60" width="330" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aiNHPKBc88--WupG7UQ1-136" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=0.985;entryY=0.132;entryDx=0;entryDy=0;exitX=-0.001;exitY=0.124;exitDx=0;exitDy=0;strokeColor=#788AA3;fontColor=#46495D;sketch=1;curved=1;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="aiNHPKBc88--WupG7UQ1-128" target="aiNHPKBc88--WupG7UQ1-61">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -380,7 +380,7 @@
             <mxPoint x="2343.0299999999997" y="-74.88400000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aiNHPKBc88--WupG7UQ1-148" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.005;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#46495D;strokeColor=#d6b656;strokeWidth=1;fillColor=#fff2cc;" edge="1" parent="1" source="aiNHPKBc88--WupG7UQ1-129" target="aiNHPKBc88--WupG7UQ1-138">
+        <mxCell id="aiNHPKBc88--WupG7UQ1-148" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.005;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#46495D;strokeColor=#d6b656;strokeWidth=1;fillColor=#fff2cc;" edge="1" parent="1" source="aiNHPKBc88--WupG7UQ1-131" target="aiNHPKBc88--WupG7UQ1-138">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aiNHPKBc88--WupG7UQ1-149" value="重写 support 让 StudentProvider处理 StudentToken" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#46495D;" vertex="1" connectable="0" parent="aiNHPKBc88--WupG7UQ1-148">
@@ -419,6 +419,22 @@
         <mxCell id="aiNHPKBc88--WupG7UQ1-160" value="添加到ProviderManger" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#46495D;" vertex="1" connectable="0" parent="aiNHPKBc88--WupG7UQ1-158">
           <mxGeometry x="0.0468" y="-4" relative="1" as="geometry">
             <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aiNHPKBc88--WupG7UQ1-161" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.93;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#46495D;strokeColor=#d6b656;strokeWidth=1;fillColor=#fff2cc;" edge="1" parent="1" source="aiNHPKBc88--WupG7UQ1-131" target="aiNHPKBc88--WupG7UQ1-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aiNHPKBc88--WupG7UQ1-162" value="由 WebSecurityConfigureAdaptor 设置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#46495D;" vertex="1" connectable="0" parent="aiNHPKBc88--WupG7UQ1-161">
+          <mxGeometry x="-0.5048" y="-15" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aiNHPKBc88--WupG7UQ1-163" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontColor=#46495D;strokeColor=#d6b656;strokeWidth=1;fillColor=#fff2cc;" edge="1" parent="1" source="aiNHPKBc88--WupG7UQ1-135" target="aiNHPKBc88--WupG7UQ1-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aiNHPKBc88--WupG7UQ1-164" value="由 WebSecurityConfigureAdaptor 设置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#46495D;" vertex="1" connectable="0" parent="aiNHPKBc88--WupG7UQ1-163">
+          <mxGeometry x="-0.0536" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
