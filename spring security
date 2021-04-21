@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-21T05:58:48.212Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 Edg/89.0.774.77" etag="bimoD7flwyu0TmJFLU9H" version="14.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-21T06:00:28.894Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 Edg/89.0.774.77" etag="WYvbRCBz2VUwCzbvVlUM" version="14.6.3" type="github">
   <diagram id="iXDsqfz4_wi-7ydtT-sb" name="Page-1">
     <mxGraphModel dx="1182" dy="1713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -207,7 +207,7 @@
           <mxGeometry y="84" width="310" height="26" as="geometry" />
         </mxCell>
         <mxCell id="aiNHPKBc88--WupG7UQ1-84" value="&lt;&lt;interface&gt;&gt;&#xa;UserDetails" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;sketch=1;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;" vertex="1" parent="1">
-          <mxGeometry x="3410" y="380" width="160" height="100" as="geometry" />
+          <mxGeometry x="3360" y="370" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="aiNHPKBc88--WupG7UQ1-85" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="aiNHPKBc88--WupG7UQ1-84">
           <mxGeometry y="40" width="160" height="26" as="geometry" />
@@ -217,6 +217,9 @@
         </mxCell>
         <mxCell id="aiNHPKBc88--WupG7UQ1-87" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="aiNHPKBc88--WupG7UQ1-84">
           <mxGeometry y="74" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="aiNHPKBc88--WupG7UQ1-127" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=15;entryDy=60;entryPerimeter=0;fontColor=#46495D;strokeColor=#788AA3;strokeWidth=1;fillColor=#B2C9AB;" edge="1" parent="1" source="aiNHPKBc88--WupG7UQ1-88" target="aiNHPKBc88--WupG7UQ1-124">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aiNHPKBc88--WupG7UQ1-88" value="User" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;sketch=1;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;" vertex="1" parent="1">
           <mxGeometry x="3370" y="630" width="160" height="86" as="geometry" />
@@ -291,6 +294,9 @@
         </mxCell>
         <mxCell id="aiNHPKBc88--WupG7UQ1-122" value="存储新老师&lt;br&gt;根据username从数据库加载 老师" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=30;dy=15;size=5;boundedLbl=1;rounded=1;sketch=1;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;" vertex="1" parent="1">
           <mxGeometry x="2760" y="1010" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aiNHPKBc88--WupG7UQ1-124" value="为学生,教师 添加不同 ROLE" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=30;dy=15;size=5;boundedLbl=1;rounded=1;sketch=1;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;" vertex="1" parent="1">
+          <mxGeometry x="3325" y="835" width="250" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
